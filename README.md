@@ -1,16 +1,21 @@
 ﻿# Android Voice Assistant SDK
 
+## 📦 Registry & Repository
+
+- **Maven Central**: [io.github.amitgaikwad2837:android-voice-assistant-sdk](https://central.sonatype.com/artifact/io.github.amitgaikwad2837/android-voice-assistant-sdk)
+- **GitHub**: [amitgaikwad2837/android-voice-assistant-sdk](https://github.com/amitgaikwad2837/android-voice-assistant-sdk)
+
 ## Overview
 
-Offline-first voice assistant with pluggable AI provider support
+Accessible voice-based interface for elderly and disabled users. Provides voice commands, audio feedback, natural language processing, and offline support for hands-free app interaction.
 
 ## Installation
 
-Add the Maven dependency once artifacts are published:
+Add the Maven dependency:
 
 ~~~kotlin
 dependencies {
-  implementation("io.github.amitgaikwad2837:android-voice-assistant-sdk:1.0.0")
+  implementation("io.github.amitgaikwad2837:android-voice-assistant-sdk:0.0.9")
 }
 ~~~
 
