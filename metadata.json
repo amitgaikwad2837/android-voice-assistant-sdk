@@ -1,0 +1,31 @@
+{
+  "name": "android-voice-assistant-sdk",
+  "version": "1.0.0",
+  "description": "Offline-first voice assistant with pluggable AI provider support",
+  "platform": "android",
+  "category": "intelligence-productivity",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "features": [
+    "wake-word-detection",
+    "speech-to-text",
+    "intent-recognition",
+    "command-processing",
+    "offline-mode",
+    "multi-provider-ai"
+  ],
+  "aiProviders": [
+    "local-ai",
+    "openai",
+    "gemini",
+    "anthropic",
+    "ollama"
+  ],
+  "permissions": [
+    "RECORD_AUDIO",
+    "INTERNET"
+  ],
+  "tags": ["android", "voice", "ai-integration", "assistant"]
+}
